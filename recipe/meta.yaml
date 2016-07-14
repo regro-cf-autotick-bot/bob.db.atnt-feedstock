@@ -7,7 +7,7 @@ package:
 source:
   fn: bob.db.atnt-{{ version }}.zip
   md5: 65e060d39e7d9b3d1200974968648d32
-  url: https://pypi.python.org/packages/source/b/bob.db.atnt/bob.db.atnt-{{ version }}.zip
+  url: https://pypi.io/packages/source/b/bob.db.atnt/bob.db.atnt-{{ version }}.zip
 
 build:
   number: 0
