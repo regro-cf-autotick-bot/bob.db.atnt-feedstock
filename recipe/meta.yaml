@@ -10,7 +10,7 @@ source:
   url: https://pypi.io/packages/source/b/bob.db.atnt/bob.db.atnt-{{ version }}.zip
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   script: python -B setup.py install --single-version-externally-managed --record record.txt
 
@@ -19,12 +19,10 @@ requirements:
     - python
     - setuptools
     - bob.db.base
-    - bob.db.verification.utils
 
   run:
     - python
     - bob.db.base
-    - bob.db.verification.utils
 
 test:
   commands:
