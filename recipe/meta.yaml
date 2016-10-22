@@ -1,4 +1,4 @@
-{% set version = "2.0.6" %}
+{% set version = "2.0.7" %}
 
 package:
   name: bob.db.atnt
@@ -6,11 +6,11 @@ package:
 
 source:
   fn: bob.db.atnt-{{ version }}.zip
-  md5: 01ac509e4babda0717fd93ce5431fafc
+  md5: 834032a66a35e8b4dba9665ee9dee586
   url: https://pypi.io/packages/source/b/bob.db.atnt/bob.db.atnt-{{ version }}.zip
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win]
   script: python -B setup.py install --single-version-externally-managed --record record.txt
 
