@@ -1,4 +1,4 @@
-{% set version = "2.0.7" %}
+{% set version = "2.1.9" %}
 
 package:
   name: bob.db.atnt
@@ -6,7 +6,7 @@ package:
 
 source:
   fn: bob.db.atnt-{{ version }}.zip
-  md5: 834032a66a35e8b4dba9665ee9dee586
+  md5: a7f7779fea2fae06a1d516b51dceff84
   url: https://pypi.io/packages/source/b/bob.db.atnt/bob.db.atnt-{{ version }}.zip
 
 build:
